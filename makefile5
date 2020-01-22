@@ -1,0 +1,25 @@
+all: wts.out 
+
+wts.out: wts.o search2.o translate.o split.o textread.o index4.o
+	gcc wts.o search2.o translate.o split.o textread.o index4.o
+
+wts.o: wts.c search.h
+	gcc -c wts.c
+
+search2.o: search2.c search.h translate.h split.h textread.h index.h
+	gcc -c search2.c
+
+search.o: search.c search.h translate.h split.h textread.h
+	gcc -c search.c
+
+translate.o: translate.c translate.h
+	gcc -c translate.c
+
+split.o: split.c split.h
+	gcc -c split.c
+	
+textread.o: textread.c textread.h
+	gcc -c textread.c
+	
+index4.o: index4.c index.h
+	gcc -c index4.c

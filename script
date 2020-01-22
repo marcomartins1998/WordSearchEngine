@@ -1,0 +1,10 @@
+time wts.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras_vazio > resultadosvazio
+time wts.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras > resultados
+time wts2.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras_vazio > resultados2vazio
+time wts2.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras > resultados2
+time wts3.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras_vazio > resultados3vazio
+time wts3.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras > resultados3
+time wts4.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras_vazio > resultados4vazio
+time wts4.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras > resultados4
+time wts5.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras_vazio > resultados5vazio
+time wts5.out Excerto1 Excerto2 Excerto3 < ficheiro_palavras > resultados5
